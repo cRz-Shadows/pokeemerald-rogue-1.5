@@ -1,0 +1,46 @@
+{
+  "id": "MAP_SAFARI_ZONE_SOUTHWEST",
+  "name": "SafariZone_Southwest",
+  "layout": "LAYOUT_SAFARI_ZONE_SOUTHWEST",
+  "music": "MUS_SAFARI_ZONE",
+  "region_map_section": "MAPSEC_SAFARI_ZONE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "up",
+      "offset": 0,
+      "map": "MAP_SAFARI_ZONE_NORTHWEST"
+    },
+    {
+      "direction": "right",
+      "offset": 0,
+      "map": "MAP_SAFARI_ZONE_SOUTH"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 29,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RogueSafari_Sign_SouthWest"
+    }
+  ]
+}
